@@ -1,4 +1,4 @@
-# 📅 Daily Java Practice Automation (EC2 to GitHub)
+#  Daily Java Practice Automation (EC2 to GitHub)
 
 This repository contains my daily Java practice code. Each day, code updates are automatically committed and pushed from an AWS EC2 instance using a scheduled script.
 
