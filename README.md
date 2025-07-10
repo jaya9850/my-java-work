@@ -1,24 +1,17 @@
-#  Daily Java Practice Automation (EC2 to GitHub)
+Daily Java Practice
+This repository contains my daily Java practice code. I update this regularly as part of my learning journey.
 
-This repository contains my daily Java practice code. Each day, code updates are automatically committed and pushed from an AWS EC2 instance using a scheduled script.
+📌 Purpose
+Track my daily progress in Java.
 
----
+Build consistency with coding habits.
 
-## 📌 Purpose
+Maintain my code with version control using Git and GitHub.
 
-- To track my **daily progress** in Java.
-- To build consistency with **daily coding habits**.
-- To automatically **version control** my code using Git and GitHub.
+🛠️ Structure
+Each folder or file represents a topic or problem I’m practicing.
 
----
+Code is written and tested on my personal environment (AWS EC2 instance).
 
-## ⚙️ How It Works
-
-- I write or update my Java code daily on an EC2 instance.
-- A shell script runs every night to:
-  1. Stage all changes
-  2. Commit with a date-based message
-  3. Push the code to this GitHub repo
-
-
-
+🚀 Goals
+Improve problem-solving skills in Java.
