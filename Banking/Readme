@@ -1,0 +1,35 @@
+# README - Simple Banking System Using Multi-level Inheritance (Java)
+
+This project is a **very easy** and **step-by-step guide** for understanding **multi-level inheritance in Java** with a **Banking System Example**.
+
+---
+
+## 🚀 What You Will Learn
+- How to use **multi-level inheritance**
+- How to create **customer information**, **login check**, and **transaction process**
+- Simple logic of **deposit** and **withdraw**
+
+---
+
+## 📜 How the Program Works (Step by Step)
+
+### 1️⃣ Customer Class (Parent)
+- Stores **customer name**, **account number**, and **balance**.
+- Shows customer details on screen.
+
+### 2️⃣ Login Class (Child of Customer)
+- Has **user ID** and **password**.
+- Checks if the entered user ID and password are correct.
+
+### 3️⃣ Transaction Class (Child of Login)
+- Allows you to **deposit money** and **withdraw money** after successful login.
+- Updates the balance.
+
+
+### 4️⃣ Main Class (Runs Everything)
+- Creates an object of **Transaction** class.
+- Shows customer details.
+- Does **login check**.
+- If login is correct, allows **deposit** and **withdraw**.
+
+
