@@ -1,0 +1,21 @@
+# interface:
+interface only declare 
+public interface Inf1
+{
+public void Area();
+public void calc();
+
+}
+## one class can use multiple interface
+interface is structure we can modify based on user need
+
+# implements is keyword used for interface 
+
+
+##multiple inheritance : more than one parents 
+inhertiance = extend keyword
+one class cannot extend mulitple inheritance
+  the ambigutiy will be generated
+child class will confuesed
+to reduce complex we cannot use multiple inheritance
+
