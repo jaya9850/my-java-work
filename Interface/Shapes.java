@@ -3,7 +3,7 @@ interface Shape {
 }
 // class Circle
 class Circle implements Shape {
-     public voiid area() {
+     public void area() {
           double r =5;
           double area = 3.14*r*r;
           System.out.println(" Circle area: " + area);
@@ -11,7 +11,7 @@ class Circle implements Shape {
 }
  // class Square
 class Square implements Shape {
-     publiic void area() {
+     public void area() {
       int side =4;
       int area = side*side;
       System.out.println("Square area" + area);
@@ -19,7 +19,7 @@ class Square implements Shape {
      }
 }
  // class Rectangle
-  class Rectangle implements Shpe {
+  class Rectangle implements Shape {
          public void area() {
              int length =4 , width =3;
              int area = length*width;
@@ -55,4 +55,4 @@ public class Main {
 }
 
 
-  }
+  
