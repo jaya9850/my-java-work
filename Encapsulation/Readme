@@ -1,6 +1,9 @@
 Encapsulation: Hiding data members
 inside class outside func = instance variable
 inside class inside function = local variable
+this keyword represent current class
+get = give value
+set = store in our variabl 
 
 
 Encapsulation is a fundamental concept in object-oriented programming. It involves bundling data (variables or attributes) and the methods (functions) that operate on that data into a single unit, often called a class. A key aspect of encapsulation is data hiding, which means restricting direct access to the internal data of an object from outside the class.
