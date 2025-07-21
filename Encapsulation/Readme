@@ -1,6 +1,6 @@
 Encapsulation: Hiding data members
-inside class outside func = instance variable
-inside class inside function = local variable
+inside class outside func = instance variable // gobal access
+inside class inside function = local variable // local access
 this keyword represent current class
 get = give value
 set = store in our variabl 
