@@ -50,7 +50,7 @@ public class Employee {
 
         // Update ID and Name
         emp.setEmployeeId(102);
-        emp.setEmployeeName("Pratiksha Gahininath");
+        emp.setEmployeeName("Pratiksha Bhosale");
 
         // Display updated details
         System.out.println("\n--- After Update ---");
