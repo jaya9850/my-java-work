@@ -11,3 +11,16 @@ display (double num)
 IT is not compulsory to implement based on situation we can use
 for eg emp Name (String)
 emp Salaray (double )
+
+##CONSTRUCTOR 
+A constructor is a special method in Java used to initialize objects. 
+It has the same name as the class and no return type (not even void).
+OVERRIDING
+Method name, return type, and parameters must be exactly the same.
+
+Used in inheritance.
+
+Provides runtime polymorphism.
+
+The subclass version overrides the superclass method.
+
