@@ -1,0 +1,13 @@
+POLY = MANY
+MORPH= form(behavours different in different situation)
+two types:
+complie time(overloading)
+runtime time (overriding)
+overload=  extact same name different parameter
+overriding = 
+for eg public void display()
+didplay (int num)
+display (double num)
+IT is not compulsory to implement based on situation we can use
+for eg emp Name (String)
+emp Salaray (double )
