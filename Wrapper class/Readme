@@ -1,0 +1,20 @@
+Creates the object From Primitive datatype 
+In Java, wrapper classes are used to convert primitive data types into objects. Each primitive type has a corresponding wrapper class:
+
+int → Integer
+double → Double
+char → Character
+boolean → Boolean
+etc.
+Example:
+
+Java
+// Primitive int
+int num = 5;
+
+// Creating an Integer object from primitive int
+Integer numObj = Integer.valueOf(num);
+
+// You can also use autoboxing
+Integer numObj2 = num; // Java automatically wraps the int into an Integer
+This process is called "boxing" or "autoboxing" when done automatically by Java.
