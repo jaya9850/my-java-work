@@ -15,3 +15,41 @@ Java provides built-in packages (like java.util, java.io
 A real-life example of a package in Java is the use of the java.util package for handling collections like ArrayList, HashMap, etc.
 
 Scenario: Suppose you are developing a library management system. You need to store and manage a list of books, users, and transactions. You can use classes from the java.util package to easily handle these data structures.
+
+
+if class is public then only we can access the package in other file
+to access the package package_name.Class_name
+ if we want to access the variables then  we have to use in its package inside pack1 = num1 then we can access in particular package
+
+
+Access modifer = public
+                 private
+                 protected
+                 default 
+
+
+public
+
+The member (class, method, variable) is accessible from any other class or package.
+Example: public int age;
+
+
+private
+
+The member is accessible only within the same class.
+Example: private String name;
+
+protected
+The member is accessible within the same package and by subclasses (even if they are in different packages).
+Example: protected void show();
+default (no modifier)
+
+If no access modifier is specified, it is package-private: accessible only within the same package.
+Example: int number; (no modifier before int)
+
+
+Modifier	Same Class	Same Package	Subclass (other package)	Everywhere
+public	   Yes	       Yes	         Yes	                     Yes
+protected	 Yes	      Yes	           Yes	                     No
+default	   Yes	      Yes          	No	                       No
+private	  Yes	        No	          No	                       No
