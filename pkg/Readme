@@ -1,0 +1,17 @@
+#we can create multiple packages with different class
+In Java, a package is a way to organize related classes, interfaces, and sub-packages. Packages help avoid naming conflicts, make code easier to maintain, and provide access protection.
+
+Key points about packages:
+
+They group related code together.
+The package name is declared at the top of a Java file using the package keyword.
+Classes in the same package can access each other's package-private members.
+Java provides built-in packages (like java.util, java.io
+
+
+
+
+
+A real-life example of a package in Java is the use of the java.util package for handling collections like ArrayList, HashMap, etc.
+
+Scenario: Suppose you are developing a library management system. You need to store and manage a list of books, users, and transactions. You can use classes from the java.util package to easily handle these data structures.
