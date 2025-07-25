@@ -1,0 +1,5 @@
+A jagged array in Java is an array of arrays where the sub-arrays can have different lengths. 
+Unlike a regular multidimensional array (like a matrix), 
+jagged arrays are not required to be rectangular.
+
+ WE can changed the size of column in array
