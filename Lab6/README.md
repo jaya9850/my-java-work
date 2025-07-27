@@ -6,9 +6,9 @@ This lab contains two Java programs demonstrating basic array operations:
 
 ---
 
-## ✅ Lab 1: Sum and Average of Array Elements
+## ✅ Eg 1: Sum and Average of Array Elements
 
-**File**: `SumAndAverage/SumAndAverage.java`
+**File**: 'SumAndAverage.java`
 
 ### Description:
 - Takes an array of integers from the user.
@@ -16,5 +16,23 @@ This lab contains two Java programs demonstrating basic array operations:
 
 ### How to Run:
 ```bash
-javac SumAndAverage/SumAndAverage.java
-java SumAndAverage.SumAndAverage
+javac SumAndAverage.java
+java SumAndAverage
+
+
+
+✅ Eg 2: Sorting an Array in Ascending Order
+File: ArraySorter/ArraySorter.java
+
+Description:
+Accepts an array of integers.
+
+Sorts the array in ascending order using bubble sort.
+
+Displays the sorted array.
+
+How to Run:
+bash
+Copy code
+javac ArraySorter.java
+java .ArraySorter
