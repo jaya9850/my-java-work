@@ -1,4 +1,4 @@
-# Lab4 - Java Array Operations
+# Lab7 - Java Array Operations
 
 This lab contains two Java programs demonstrating basic array operations:
 1. Sum and average calculation
