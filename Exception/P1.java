@@ -26,3 +26,14 @@ public class expdemo {
         }
     }
 }
+
+// sample output:
+
+Enter first number: 4
+Enter second number: 6
+Addition: 10
+Subtraction: -2
+Multiplication: 24
+Division: 0
+hi
+bye
