@@ -15,3 +15,11 @@ public class InputMismatchDemo {
         }
     }
 }
+
+
+//output:
+Enter an integer: asc
+That's not an integer!
+
+Enter an integer: 12
+You entered: 12
