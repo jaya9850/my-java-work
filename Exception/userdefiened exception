@@ -1,0 +1,26 @@
+//super keywords indicate to parent class object
+
+// Define the custom exception
+public class MyCustomException extends Exception {
+    public MyCustomException(String message) {
+        super(message);
+    }
+}
+
+// Use the custom exception
+public class TestCustomException {
+    public static void checkValue(int value) throws MyCustomException {
+        if (value < 0) {
+            throw new MyCustomException("Value cannot be negative!");
+        }
+        System.out.println("Value is valid: " + value);
+    }
+
+    public static void main(String[] args) {
+        try {
+            checkValue(-5);
+        } catch (MyCustomException e) {
+            System.out.println("Caught exception: " + e.getMessage());
+        }
+    }
+}
