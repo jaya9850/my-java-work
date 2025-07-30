@@ -1,4 +1,4 @@
-Exception:run time error / exection mode process is stop or break
+Exception:  unwanted condition run time error / exection mode process is stop or break
 error: syntax error, logical error error can resolved 
 If you tell your program to open a file that isn’t there, it throws an exception to warn you, so you can fix the issue or prevent a crash.
 
@@ -60,3 +60,7 @@ Example: NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsExcepti
 3. Errors
 These are serious problems your program usually cannot handle (like running out of memory).
 Example: OutOfMemoryError, StackOverflowError.
+
+
+we can use try with finally block 
+multi catch to handle multiple expection 
