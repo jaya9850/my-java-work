@@ -59,15 +59,5 @@ Enter a number to parse: 15
 Parsed value = 15
 ```
 
----
 
-## Testing Checklist
-- Task 1
-  - Valid integer (e.g., `7`)
-  - Non‑integer token (e.g., `x`, `3.14`, `@`)
-  - Multiple invalid attempts followed by a valid integer
-- Task 2
-  - Valid integer string (e.g., `123`)
-  - Non‑numeric string (e.g., `abc`, `12a`)
-  - Empty string (should be rejected before parsing)
-  - Deliberate `null` case (type `null` to trigger the controlled branch)
+
