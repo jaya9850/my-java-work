@@ -10,8 +10,7 @@ Enter first number: 10
 Enter second number: 5
 Enter operator (+, -, *, /): /
 Result: 2.0
-vbnet
-Copy code
+
 Enter first number: 8
 Enter second number: 0
 Enter operator (+, -, *, /): /
@@ -34,8 +33,7 @@ Deposited: 500.0
 Enter amount to withdraw: 200
 Withdrawn: 200.0
 Final Balance: ₹1300.0
-yaml
-Copy code
+
 Current Balance: ₹1000.0
 Enter amount to deposit: 100
 Deposited: 100.0
