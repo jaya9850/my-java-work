@@ -64,3 +64,4 @@ Example: OutOfMemoryError, StackOverflowError.
 
 we can use try with finally block 
 multi catch to handle multiple expection 
+different expection different catch blocks
