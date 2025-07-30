@@ -13,33 +13,9 @@ In this lab you will build two small Java programs that practice **exception han
 1. **Prompt for an integer** and handle `InputMismatchException` if the user enters a non‑integer value.  
 2. **Convert user input to an integer** using `Integer.parseInt()` and handle both `NumberFormatException` and `NullPointerException` during conversion.
 
-## Prerequisites
-- Java 17+ (or any modern LTS JDK)
-- Terminal/Command Prompt, or an IDE like IntelliJ IDEA / VS Code / Eclipse
 
-## Suggested Project Structure
-```
-lab-exceptions/
-├─ src/
-│  ├─ Task1_InputMismatch.java
-│  └─ Task2_ParseInt.java
-└─ README.md
-```
 
-## Getting Started
-1. Create a new folder `lab-exceptions` and a subfolder `src`.
-2. Inside `src`, create the two Java files shown above.
-3. Compile and run from the terminal:
-   ```bash
-   javac src/*.java
-   # Run Task 1
-   java -cp src Task1_InputMismatch
-   # Run Task 2
-   java -cp src Task2_ParseInt
-   ```
-   > If your classes declare a package, compile and run with the matching folder structure and `-cp` accordingly.
 
----
 
 ## Task 1: Read an Integer Safely (`InputMismatchException`)
 **Goal:** Prompt until the user provides a valid integer.  
