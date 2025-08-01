@@ -70,3 +70,24 @@ Multiprocessing is a technique where multiple processes run simultaneously, each
 Multithreading:
 Multithreading is a technique where a single process creates multiple threads that run concurrently, sharing the same memory space. Threads are lighter weight than processes and can efficiently perform tasks that require frequent interaction or shared data. However, since threads share resources, care must be taken to avoid issues like race conditions and deadlocks.
    
+The phases in a thread (in Java) are as follows:
+
+New: The thread is created but not yet started.
+Runnable: The thread is ready to run and waiting for CPU allocation.
+Running: The thread is currently executing.
+Blocked/Waiting: The thread is temporarily inactive, waiting for resources or another thread's action.
+Terminated/Dead: The thread has finished execution.
+
+
+
+start(): Starts the execution of the thread; calls the run() method.
+run(): Contains the code to be executed by the thread.
+sleep(long millis): Makes the thread pause for a specified time.
+join(): Waits for a thread to finish its execution.
+setPriority(int priority): Sets the priority of a thread.
+getPriority(): Gets the priority of a thread.
+setName(String name): Sets the name of a thread.
+getName(): Gets the name of a thread.
+isAlive(): Checks if a thread is still running.
+interrupt(): Interrupts a thread.
+yield(): Causes the currently executing thread to pause and allow other threads to execute.
