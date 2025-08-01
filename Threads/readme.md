@@ -59,3 +59,14 @@ public class Main {
 - To perform tasks in parallel (e.g., downloading files, handling user input, etc.)
 - To keep user interfaces responsive.
 - To make better use of multicore processors.
+
+two ways
+ multiprocessing
+ multithreading
+
+ Multiprocessing:
+Multiprocessing is a technique where multiple processes run simultaneously, each with its own memory space. It allows programs to achieve parallelism by utilizing multiple CPU cores. Each process runs independently, so one process crashing does not affect others. This method is often used to bypass limitations like the Global Interpreter Lock (GIL) in some languages, such as Python.
+
+Multithreading:
+Multithreading is a technique where a single process creates multiple threads that run concurrently, sharing the same memory space. Threads are lighter weight than processes and can efficiently perform tasks that require frequent interaction or shared data. However, since threads share resources, care must be taken to avoid issues like race conditions and deadlocks.
+   
