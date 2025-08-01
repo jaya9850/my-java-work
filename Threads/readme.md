@@ -59,5 +59,3 @@ public class Main {
 - To perform tasks in parallel (e.g., downloading files, handling user input, etc.)
 - To keep user interfaces responsive.
 - To make better use of multicore processors.
-
-If you’d like to see how threads are used in your specific repository or want more advanced details, let me know!
