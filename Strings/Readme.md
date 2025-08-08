@@ -3,7 +3,7 @@ String class
 common operation 
 concatenation
 length
-Here’s a summary of your requested concepts related to Java’s String:
+
 
 1. **Combination of characters / Sequence of char:**  
    In Java, a String is a sequence of characters. Internally, it is implemented as an array of char values.
@@ -44,4 +44,3 @@ System.out.println(combined); // Output: Hello World
 System.out.println(length);   // Output: 11
 ```
 
-If you want more details or other String operations (like substring, compare, etc.), let me know!
