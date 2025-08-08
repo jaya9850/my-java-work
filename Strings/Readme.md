@@ -44,3 +44,18 @@ System.out.println(combined); // Output: Hello World
 System.out.println(length);   // Output: 11
 ```
 
+Heap Vs stack
+ack Size:
+
+The stack has a limited and relatively small size, usually set by the operating system or runtime environment (example: a few megabytes per thread).
+
+This limitation means you can only allocate small and short-lived variables on the stack, such as basic types (int, float, etc.) and small structures.
+
+Large objects or arrays cannot safely be allocated on the stack without risking a stack overflow.
+
+Heap Size:
+
+The heap is much larger, limited only by available system memory.
+
+You can allocate large and complex data structures in the heap, and these allocations can persist beyond the scope of the functions that created them.
+
